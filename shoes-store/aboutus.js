@@ -1,12 +1,14 @@
-const btn = document.querySelector(".btn");
-const videoContainer = document.querySelector(".video-container");
 
-const close = document.querySelector(".close");
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log (entry)
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show')
+    } else {
+      entry.target.classList.remove('show')
+    }
+  });
+});
 
-btn.addEventListener("click",()=> {
-    videoContainer.classList.add("show");
-})
-
-btn.addEventListener("click",()=> {
-    videoContainer.classList.remove("show");
-})
+const hiddenElements = document.querySelectorAll('.hidden')
+hiddenElements.forEach((el) => observer.observe(el));
