@@ -1,0 +1,98 @@
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+.homepagestartinfo {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.homepagestartinfo .img-left {
+    position: relative;
+    overflow: hidden;
+}
+
+.homepagestartinfo .img-left .top-img {
+    width: 390px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    height: auto;
+    transition: transform 0.5s, filter 0.5s;
+}
+.homepagestartinfo .img-left .bottom-img {
+    width: 390px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    height: auto;
+    transition: transform 0.5s, filter 0.5s;
+}
+
+
+.homepagestartinfo .main-img img {
+    width: 400px;
+}
+
+.homepagestartinfo .starter-info h1{
+
+    margin-bottom: 70px;
+    font-weight: 500;
+    font-size: 70px;
+
+}
+.homepagestartinfo button {
+    margin-top: 40px;
+    width: 180px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+}
+.homepagestartinfo button a {
+    color: white;
+    text-decoration: none;
+   
+}
+
+.homepage-catergories .cat-text h1 {
+    margin-left: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 70px;
+} 
+.homepage-catergories .cat-text a {
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+  
+}
+
+.homepage-catergories .img-cat img {
+    margin-bottom: 100px;
+    width: 430px;
+}
+.homepage-catergories .img-cat .start-img {
+    margin-left: 50px;
+}
+
+.homepage-trending .tre-text h1 {
+    margin-left: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+.homepage-trending .tre-text a {
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+}
+.homepage-trending .tre-img .tre-firstimg img {
+    margin-left: 50px;
+    width: 800px;
+    height: 500px;
+}
+.homepage-trending .tre-img .tre-secondimg img {
+    width: 800px;
+    height: 500px;
+}

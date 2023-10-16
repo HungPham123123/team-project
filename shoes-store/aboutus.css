@@ -209,15 +209,15 @@ font-family: 'Jost', sans-serif;
 
 .hidden {
     opacity: 0;
-    filter: blur(2px);
-    transition: all 1s;
-    transform: translateX(-100%);
+    filter: blur(3px);
+    transform: translateY(27%);
+    transition: all 0.5s;
 }
 
 .show {
     opacity: 1;
     filter: blur(0);
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
 
@@ -249,22 +249,8 @@ font-family: 'Jost', sans-serif;
         height: 200px;
         margin-bottom: 30px;
     }
-    #aboutus-story #banner-2 {
-
-    }
 }
-@media screen and (max-width: 770px) {
-    #aboutus-story .banner-1 img{
-        height: auto;
-        width: auto;
-        margin-bottom: 20px;
-    }
-    
-    #aboutus-story .banner-2-3 img {
-        height: auto;
 
-    }
-}
 
 @media screen and (max-width: 660px) {
     #aboutus-story .banner-1 img{
