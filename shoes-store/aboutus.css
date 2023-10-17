@@ -211,7 +211,7 @@ font-family: 'Jost', sans-serif;
     opacity: 0;
     filter: blur(3px);
     transform: translateY(27%);
-    transition: all 0.5s;
+    transition: all 1s;
 }
 
 .show {
