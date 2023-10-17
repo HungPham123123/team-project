@@ -10,7 +10,7 @@ body {
     width: 90px;
     height: 1px;
     background-color: #51adcd;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .motivation-product {
@@ -123,7 +123,7 @@ body {
     margin-right: 10px;
     display: block;
     margin-bottom: 13px;
-    transition: .5s;
+    transition: .3s;
     color: #000;
 
 }
@@ -183,4 +183,16 @@ body {
     color: #fff;
     background: #51adcd;
     margin-bottom: 50px;
+}
+
+.brand-logo {
+    background: #f4f4f4;
+    padding: 50px 0px
+}
+
+.brand-logo img {
+    transition: all 0.3s ease;
+}
+.brand-logo img:hover {
+    opacity: 0.5;
 }
