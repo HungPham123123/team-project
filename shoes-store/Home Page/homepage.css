@@ -201,6 +201,69 @@ body {
     .product-box {
         width: 20%;
     }
+    .product-box .product-icon {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+       top: 190px;
+        left: -18px;
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(40%);
+        transition: opacity 0.5s, transform 0.5s;
+    }
+    
+    .product-box:hover .product-icon {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+    }
+    
+    .product-box:hover .product-icon,
+    .product-box:not(:hover) .product-icon {
+        transition-delay: 0.1s;
+    }
+    
+    .product-icon li a {
+        padding-left: 50px;
+        width: 46px;
+        height: 46px;
+        box-shadow: 0 15px 25px #00000014;
+        border-radius: 50%;
+        margin-left: 10px;
+        margin-right: 10px;
+        display: block;
+        margin-bottom: 13px;
+        transition: .3s;
+        color: #000;
+    
+    }
+    
+    .product-icon li a:hover {
+        color: white;
+        background: #51adcd;
+    }
+    
+    .product-icon .icon-1{
+        position: absolute;
+        top: 16px;
+        left: 68px;
+    }
+    
+    .product-icon .icon-2{
+        position: absolute;
+        top: 16px;
+        left: 138px;
+    }
+    
+    .product-icon .icon-3{
+        position: absolute;
+        top: 16px;
+        left: 208px;
+    }
 }
 
 @media screen and (max-width: 1070px) {
