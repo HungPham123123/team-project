@@ -196,3 +196,21 @@ body {
 .brand-logo img:hover {
     opacity: 0.5;
 }
+
+@media screen and (max-width: 1440px) {
+    .product-box {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .product-box {
+        width: 19%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .product-box {
+        width: 18%;
+    }
+}
