@@ -128,6 +128,11 @@ body {
 
 }
 
+.product-icon li a:hover {
+    color: white;
+    background: #51adcd;
+}
+
 .product-icon .icon-1{
     position: absolute;
     top: 16px;
