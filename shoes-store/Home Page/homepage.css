@@ -125,7 +125,7 @@ body {
     margin-bottom: 13px;
     transition: .3s;
     color: #000;
-
+    background: #fff;
 }
 
 .product-icon li a:hover {
@@ -239,7 +239,7 @@ body {
         margin-bottom: 13px;
         transition: .3s;
         color: #000;
-    
+        background: #fff;
     }
     
     .product-icon li a:hover {
