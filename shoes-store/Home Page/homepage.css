@@ -6,6 +6,8 @@ body {
     max-width: 1440px;
 }
 
+/* motivation */
+
 .motivation-product .motivation-line {
     width: 90px;
     height: 1px;
@@ -13,7 +15,7 @@ body {
     margin-bottom: 50px;
 }
 
-.motivation-product {
+.motivation-product{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,18 +26,13 @@ body {
 
 
 /*it's your choice */
+
 .your-choice-product .your-choice-line {
     width: 90px;
     height: 1px;
     background-color: #51adcd;
     margin-bottom: 20px;
 }
-
-
-.product-row {
-    margin: 0px 0px 0px 0px;
-}
-
 .your-choice-product {
     display: flex;
     flex-direction: column;
@@ -44,6 +41,25 @@ body {
     margin-top: 50px;
     text-align: center;
 }
+
+.new-arrivals {
+    border: none;
+    cursor: pointer;
+    height: 42px;
+    min-width: 120px;
+    font-size: 13px;
+    font-weight: 500px;
+    color: #fff;
+    background: #51adcd;
+    margin-bottom: 50px;
+}
+
+/* product */
+
+.product-row {
+    margin: 0px 0px 0px 0px;
+}
+
 
  .product-box {
     display: flex;
@@ -173,17 +189,9 @@ body {
     font-size: 15px;
 }
 
-.new-arrivals {
-    border: none;
-    cursor: pointer;
-    height: 42px;
-    min-width: 120px;
-    font-size: 13px;
-    font-weight: 500px;
-    color: #fff;
-    background: #51adcd;
-    margin-bottom: 50px;
-}
+
+
+/* brand logo */
 
 .brand-logo {
     background: #f4f4f4;
@@ -195,6 +203,110 @@ body {
 }
 .brand-logo img:hover {
     opacity: 0.5;
+}
+
+
+/* banner-sport */
+.banner-items  {
+ position: relative;
+ transition: all .5s linear;
+}
+
+.box-img {
+    overflow: hidden;
+    display: block;
+}
+.banner-items:hover img {
+    transform: scale(1.04);
+    transition: all 0.8s linear;
+}
+.banner-items:hover .banner-content {
+    opacity: 1;
+    transition: all 0.5s linear;
+    left: 50px;
+    top: 30%;
+}
+
+.banner-items .banner-content {
+    position: absolute;
+    z-index: 2;
+    transition: all .5s linear;
+    left: 50px;
+    top: 30%;
+    opacity: 0;
+}
+
+.banner-content h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.banner-items:hover::after {
+    content: "";
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    background-color: rgba(255, 255, 255, .85);
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+}
+
+.banner-items::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    transition: all .5s linear;
+    z-index: 1;
+}
+
+/*blog section */
+
+.blog-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+}
+.blog-section .blog-line {
+    width: 90px;
+    height: 1px;
+    background-color: #51adcd;
+    margin-bottom: 50px;
+}
+
+.blog-section .blog-content .blog-cate  {
+    color: #83868c;
+    text-decoration: none;
+}
+.blog-section .blog-content .blog-cate:hover {
+    color: #51adcd;
+}
+
+.blog-section .blog-content .blog-title{
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.blog-section .blog-content .blog-title:hover {
+    color: #51adcd;
+}
+
+.blog-section .blog-content hr {
+    width: 50px;
+    background-color: #51adcd;
+    margin-bottom: 15px;
+}
+
+.blog-section .blog-content .blog-short {
+    color: #83868c;
+    font-size: 16px;
 }
 
 @media screen and (max-width: 1440px) {
