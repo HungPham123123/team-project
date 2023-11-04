@@ -23,7 +23,7 @@
   </head>
   <body>
     <section>
-        <div class="motivation-product">
+        <div class="motivation-product hidden">
             <div class="container">
                 <h3 class="motivation-title">MOTIVATION</h3>
                 <hr class="motivation-line">
@@ -47,10 +47,10 @@
                                             <i class="fa-solid fa-bag-shopping icon-1"></i>
                                         </a>
                                     </li>
-                                    <li class="view-product mr-0">
-                                        <a href="">
+                                  <li class="view-product mr-0">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -87,9 +87,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -126,9 +126,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -165,9 +165,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -204,9 +204,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -243,9 +243,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -282,9 +282,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -321,9 +321,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -360,9 +360,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -399,9 +399,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -438,9 +438,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -477,9 +477,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -508,7 +508,7 @@
 
 
 
-        <div style="margin-top: 150px;" class="sport-banner-section">
+        <div style="margin-top: 150px;" class="sport-banner-section hidden">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
@@ -559,7 +559,7 @@
 
 
 
-        <div class="your-choice-product">
+        <div class="your-choice-product hidden">
             <div class="container">
                 
                     <h3 class="product-slider-heading">IT'S YOUR CHOICE</h3>
@@ -586,9 +586,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -624,9 +624,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -660,9 +660,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -698,9 +698,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -736,9 +736,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -774,9 +774,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -811,9 +811,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -846,9 +846,9 @@
                                         </a>
                                     </li>
                                     <li class="view-product mr-0">
-                                        <a href="">
+                                        <button onclick="togglePopup()" href="">
                                             <i class="fa-solid fa-magnifying-glass icon-2"></i>
-                                        </a>
+                                        </button>
                                     </li>
                                     <li class="add-favorite mr-0">
                                         <a href="">
@@ -873,7 +873,7 @@
         </div>
 
 
-        <div style="margin-bottom: 120px;" class="brand-logo">
+        <div style="margin-bottom: 120px;" class="brand-logo hidden">
             <div class="container container-brand">
                 <div class="row">
                     <div class="col-md-2">
@@ -910,7 +910,7 @@
             </div>
         </div>
 
-        <div class="banner-run">
+        <div class="banner-run hidden">
             <div class="container">
                     <div class="banner-run-box">
                             <div class="run-img">
@@ -928,7 +928,7 @@
             </div>
         </div>
 
-        <div class="blog-section">
+        <div class="blog-section hidden">
             <div class="container">
                 <h3 class="blog-title">OUR BLOGS</h3>
                 <hr class="blog-line">
@@ -1001,6 +1001,70 @@
                 </div>
             </div>
         </div>
+        <div class="popup-trigger" id="popup-1">
+        <div class="overview-overlay"></div>
+             <div class="popup-content">
+                   <span class="popup-close" onclick="togglePopup()">&times;</span>
+                   <div class="row">
+                         <div class="col-md-6">
+                                 <a href="">
+                                      <img style="width: 100%;" src="homepagepicture/shoes 3.webp" alt="">
+                                 </a>
+                        
+                         </div>
+                     <div class="col-md-6 popup-detail">
+                        <a class="product-name" href=""><h2>On Cloudflyer Men</h2></a>
+                        <span>$169.95 USD</span>
+                        <hr>
+                        <p class="product-info">Do you walk on paved and asphalted roads, on<br> forest paths or do you regularly train or compete on the...</p>
+                        <div>
+                            <div class="size-header">
+                                <div class="header">Size</div>
+                                <div class="m-available">
+                                    <input type="radio" name="option-0" id="option-m" value="M" checked>
+                                    <label class="variant-other" for="option-m">M</label>
+                                </div>
+                                <div class="l-available">
+                                    <input type="radio" name="option-0" id="option-l" value="L">
+                                    <label class="variant-other" for="option-l">L</label>
+                                </div>
+                            </div>
+                            <div class="color-header">
+                                <div class="header">Color</div>
+                                <div class="orange-color">
+                                    <input type="radio" name="option-1" id="option-orange" value="DarkOrange" checked>
+                                    <label class="link-color" for="option-orange" style="background-color: darkorange;"></label>
+                                </div>
+                                <div class="lightblue-color">
+                                    <input type="radio" name="option-1" id="option-lightblue" value="LightBlue">
+                                    <label class="link-color" for="option-lightblue" style="background-color: lightblue;"></label>
+                                </div>
+                                <div class="grayorange-color">
+                                    <input type="radio" name="option-1" id="option-grayorange" value="GrayOrange">
+                                    <label class="link-color" for="option-grayorange" style="background-color: gray;"></label>
+                                </div>
+                            </div>
+
+                            <div class="product-action">
+                                <div class="product-quantity">
+                                    <div class="quantity-all">
+                                        <span class="qty-minus">
+                                            <i class="fa fa-caret-down"></i>
+                                        </span>
+                                        <input type="text" name="quantity" value="1" id="quantityInput">
+                                        <span class="qty-plus">
+                                            <i class="fa fa-caret-up"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="btn-addtocart"></div>
+                            </div>
+                            
+                        </div>
+                     </div>
+                    </div>
+             </div>
+            </div>
     </section>
 
 

@@ -1,3 +1,20 @@
-.container {
-    max-width: 500px;
-}
+.popup-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .popup-trigger.active .popup-content {
+    display: block;
+  }
+  
+  .popup-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
