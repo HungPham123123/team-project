@@ -2,9 +2,6 @@ body {
     font-family: 'Jost', sans-serif;
 }
 
-.container {
-    max-width: 1440px;
-}
 
 /* motivation */
 
@@ -156,8 +153,8 @@ body {
 
 .label-sale {
     position: absolute;
-    top: 10px;
-    right: -30px;
+    top: 0px;
+    right: -50px;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -264,6 +261,8 @@ body {
     font-weight: 700;
     font-size: 15px;
 }
+
+
 
 
 
@@ -934,7 +933,7 @@ body {
         max-width: 900px;
     }
     .product-row {
-        margin-left: 80px;
+        margin-left: 150px;
     }
     .run-button a {
         top: -100px;
